@@ -1,0 +1,64 @@
+[
+  {
+    "Model": "Ridge",
+    "R2": 0.7945,
+    "MAE": 0.299,
+    "RMSE": 0.3788
+  },
+  {
+    "Model": "LightGBM",
+    "R2": 0.9493,
+    "MAE": 0.1284,
+    "RMSE": 0.1881,
+    "best_params": {
+      "n_estimators": 1298,
+      "max_depth": 10,
+      "learning_rate": 0.05620862808660503,
+      "num_leaves": 143,
+      "subsample": 0.6586406360440564,
+      "colsample_bytree": 0.6909412952015893,
+      "reg_alpha": 0.040596816298089165,
+      "reg_lambda": 3.7825041135080255,
+      "min_child_samples": 7,
+      "random_state": 42,
+      "n_jobs": -1,
+      "verbosity": -1
+    }
+  },
+  {
+    "Model": "XGBoost",
+    "R2": 0.9477,
+    "MAE": 0.1295,
+    "RMSE": 0.191,
+    "best_params": {
+      "n_estimators": 1203,
+      "max_depth": 10,
+      "learning_rate": 0.025374777646985185,
+      "subsample": 0.7770011607487639,
+      "colsample_bytree": 0.6000875038101723,
+      "reg_alpha": 0.024914267372694948,
+      "reg_lambda": 0.008799186698582241,
+      "min_child_weight": 5,
+      "random_state": 42,
+      "n_jobs": -1,
+      "verbosity": 0
+    }
+  },
+  {
+    "Model": "CatBoost",
+    "R2": 0.9477,
+    "MAE": 0.1304,
+    "RMSE": 0.1911,
+    "best_params": {
+      "iterations": 1412,
+      "depth": 8,
+      "learning_rate": 0.1588955552007267,
+      "l2_leaf_reg": 0.0017241427001804855,
+      "subsample": 0.9974023032326422,
+      "colsample_bylevel": 0.9405231339995301,
+      "min_data_in_leaf": 25,
+      "random_seed": 42,
+      "verbose": 0
+    }
+  }
+]
