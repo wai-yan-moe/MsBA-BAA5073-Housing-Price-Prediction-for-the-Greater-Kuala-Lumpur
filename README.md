@@ -199,7 +199,11 @@ Property locations across GKL, aggregated by area. Dot size reflects listing cou
 
 ## Acknowledgements
 
-**Original group members:** Wai Yan Moe, Ameiyrul Hassan bin Ashruff Hassan, Tengku Maimunah binti Tengku Iskandar, Yew Yen Bin
+**Original group members:**
+- Wai Yan Moe
+- Ameiyrul Hassan bin Ashruff Hassan
+- Tengku Maimunah binti Tengku Iskandar
+- Yew Yen Bin
 
 **Data source:** [dragonduck/property-listings-in-kuala-lumpur](https://www.kaggle.com/datasets/dragonduck/property-listings-in-kuala-lumpur) on Kaggle
 
